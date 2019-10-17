@@ -15,21 +15,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Entity", "04 Entity", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 Infrastructure", "05 Infrastructure", "{92DE6A66-84ED-4EE5-9D8A-0C67805D6DE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skey.CoreCms.Layouts", "01 Layouts\Skey.CoreCms.Layouts\Skey.CoreCms.Layouts.csproj", "{1832883A-C0F8-4FFE-AF4B-7CA3368500DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skey.CoreCms.Layouts", "01 Layouts\Skey.CoreCms.Layouts\Skey.CoreCms.Layouts.csproj", "{1832883A-C0F8-4FFE-AF4B-7CA3368500DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skey.Core.Framework.Repository", "06 Framework\Skey.Core.Framework.Repository\Skey.Core.Framework.Repository.csproj", "{A5D9FF1C-41A2-4BB7-903C-AD90D1FDE0B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skey.Core.Framework.Repository", "06 Framework\Skey.Core.Framework.Repository\Skey.Core.Framework.Repository.csproj", "{A5D9FF1C-41A2-4BB7-903C-AD90D1FDE0B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skey.Core.Framework.Common", "06 Framework\Skey.Core.Framework.Common\Skey.Core.Framework.Common.csproj", "{CE7BB36F-C947-4827-BC20-9A90FD01ACAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skey.Core.Framework.Common", "06 Framework\Skey.Core.Framework.Common\Skey.Core.Framework.Common.csproj", "{CE7BB36F-C947-4827-BC20-9A90FD01ACAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreCms.ViewModels", "04 Entity\CoreCms.ViewModels\CoreCms.ViewModels.csproj", "{549DEB8B-2A4D-4FF6-AD41-0F63BB7BB252}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreCms.ViewModels", "04 Entity\CoreCms.ViewModels\CoreCms.ViewModels.csproj", "{549DEB8B-2A4D-4FF6-AD41-0F63BB7BB252}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreCms.DbRepository", "03 Repository\CoreCms.DbRepository\CoreCms.DbRepository.csproj", "{9AA9569B-C6D2-4310-9193-1ECB9824CABB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreCms.DbRepository", "03 Repository\CoreCms.DbRepository\CoreCms.DbRepository.csproj", "{9AA9569B-C6D2-4310-9193-1ECB9824CABB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreCms.Domain", "05 Infrastructure\CoreCms.Doamin\CoreCms.Domain.csproj", "{F5479EAC-4306-4B9F-A19E-EF0C12736D87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreCms.Domain", "05 Infrastructure\CoreCms.Doamin\CoreCms.Domain.csproj", "{F5479EAC-4306-4B9F-A19E-EF0C12736D87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreCms.Ioc", "03 Repository\CoreCms.Ioc\CoreCms.Ioc.csproj", "{F8C69AE9-F1E4-4903-9E3D-05715A23FF7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreCms.Ioc", "03 Repository\CoreCms.Ioc\CoreCms.Ioc.csproj", "{F8C69AE9-F1E4-4903-9E3D-05715A23FF7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreCms.Application", "02 Application\CoreCms.Application\CoreCms.Application.csproj", "{B96D60FF-DBE6-4D4A-A536-7807E096E36A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreCms.Application", "02 Application\CoreCms.Application\CoreCms.Application.csproj", "{B96D60FF-DBE6-4D4A-A536-7807E096E36A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreArea.Layouts", "01 Layouts\CoreArea.Layouts\CoreArea.Layouts.csproj", "{58A26AAE-CBD1-437A-BCE6-F1113C384961}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{B96D60FF-DBE6-4D4A-A536-7807E096E36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B96D60FF-DBE6-4D4A-A536-7807E096E36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B96D60FF-DBE6-4D4A-A536-7807E096E36A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58A26AAE-CBD1-437A-BCE6-F1113C384961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58A26AAE-CBD1-437A-BCE6-F1113C384961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58A26AAE-CBD1-437A-BCE6-F1113C384961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58A26AAE-CBD1-437A-BCE6-F1113C384961}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +88,7 @@ Global
 		{F5479EAC-4306-4B9F-A19E-EF0C12736D87} = {92DE6A66-84ED-4EE5-9D8A-0C67805D6DE5}
 		{F8C69AE9-F1E4-4903-9E3D-05715A23FF7B} = {42A1CB17-91EA-4010-8B12-C6889AB96AF9}
 		{B96D60FF-DBE6-4D4A-A536-7807E096E36A} = {9C606C72-7FF3-4115-AD39-E9A5331BFC0A}
+		{58A26AAE-CBD1-437A-BCE6-F1113C384961} = {F4E1184F-4B10-4ECC-8BAC-985C51CFCF13}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BCDB664-5D3E-4970-A957-9FA8C0259C29}

@@ -31,7 +31,7 @@ namespace Skey.Core.Framework.Common.Helper
                 var ip = _accessor.HttpContext.Request.Headers[ForwardedHeadersDefaults.XForwardedForHeaderName].ToString();
                 if (string.IsNullOrEmpty(ip))
                 {
-                    ip = "127.0.0.1";
+                    ip = _accessor.HttpContext.Connection.RemoteIpAddress.ToString();
                 }
                 else
                 {

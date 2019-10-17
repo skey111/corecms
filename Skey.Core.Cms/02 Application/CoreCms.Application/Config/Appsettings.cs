@@ -8,7 +8,7 @@ namespace CoreCms.Application.Config
     /// <summary>
     /// APP配置信息
     /// </summary>
-    public class Appsettings
+    public partial class AppSettings
     {
         /// <summary>
         /// 上传目录
@@ -98,7 +98,6 @@ namespace CoreCms.Application.Config
                 Console.WriteLine(ex.Message);
                 return "";
             }
-
         }
     }
 }

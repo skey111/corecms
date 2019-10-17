@@ -48,6 +48,7 @@ namespace Skey.CoreCms.Layouts
                 options.JsonSerializerOptions.PropertyNameCaseInsensitive = true;
                 options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
             });
+
             RegisterServices(services);
         }
 
@@ -93,6 +94,7 @@ namespace Skey.CoreCms.Layouts
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+
 
             //初始化数据
             var httpContext = app.ApplicationServices.GetRequiredService<IHttpContextAccessor>();
