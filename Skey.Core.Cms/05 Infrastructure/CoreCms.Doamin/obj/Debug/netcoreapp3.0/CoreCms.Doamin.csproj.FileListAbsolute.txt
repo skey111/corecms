@@ -1,0 +1,11 @@
+C:\Company\skey\core\Cms\Skey.Core.Cms\05 Infrastructure\CoreCms.Doamin\bin\Debug\netcoreapp3.0\CoreCms.Doamin.deps.json
+C:\Company\skey\core\Cms\Skey.Core.Cms\05 Infrastructure\CoreCms.Doamin\bin\Debug\netcoreapp3.0\CoreCms.Doamin.dll
+C:\Company\skey\core\Cms\Skey.Core.Cms\05 Infrastructure\CoreCms.Doamin\bin\Debug\netcoreapp3.0\CoreCms.Doamin.pdb
+C:\Company\skey\core\Cms\Skey.Core.Cms\05 Infrastructure\CoreCms.Doamin\bin\Debug\netcoreapp3.0\Skey.Core.Framework.Repository.dll
+C:\Company\skey\core\Cms\Skey.Core.Cms\05 Infrastructure\CoreCms.Doamin\bin\Debug\netcoreapp3.0\Skey.Core.Framework.Repository.pdb
+C:\Company\skey\core\Cms\Skey.Core.Cms\05 Infrastructure\CoreCms.Doamin\obj\Debug\netcoreapp3.0\CoreCms.Doamin.csprojAssemblyReference.cache
+C:\Company\skey\core\Cms\Skey.Core.Cms\05 Infrastructure\CoreCms.Doamin\obj\Debug\netcoreapp3.0\CoreCms.Doamin.AssemblyInfoInputs.cache
+C:\Company\skey\core\Cms\Skey.Core.Cms\05 Infrastructure\CoreCms.Doamin\obj\Debug\netcoreapp3.0\CoreCms.Doamin.AssemblyInfo.cs
+C:\Company\skey\core\Cms\Skey.Core.Cms\05 Infrastructure\CoreCms.Doamin\obj\Debug\netcoreapp3.0\CoreCms.Doamin.csproj.CopyComplete
+C:\Company\skey\core\Cms\Skey.Core.Cms\05 Infrastructure\CoreCms.Doamin\obj\Debug\netcoreapp3.0\CoreCms.Doamin.dll
+C:\Company\skey\core\Cms\Skey.Core.Cms\05 Infrastructure\CoreCms.Doamin\obj\Debug\netcoreapp3.0\CoreCms.Doamin.pdb

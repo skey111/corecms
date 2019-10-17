@@ -1,0 +1,13 @@
+C:\Company\skey\core\Cms\Skey.Core.Cms\03 Repository\CoreCms.DbRepository\obj\Debug\netcoreapp3.0\CoreCms.DbRepository.csprojAssemblyReference.cache
+C:\Company\skey\core\Cms\Skey.Core.Cms\03 Repository\CoreCms.DbRepository\obj\Debug\netcoreapp3.0\CoreCms.DbRepository.AssemblyInfoInputs.cache
+C:\Company\skey\core\Cms\Skey.Core.Cms\03 Repository\CoreCms.DbRepository\obj\Debug\netcoreapp3.0\CoreCms.DbRepository.AssemblyInfo.cs
+C:\Company\skey\core\Cms\Skey.Core.Cms\03 Repository\CoreCms.DbRepository\bin\Debug\netcoreapp3.0\CoreCms.DbRepository.deps.json
+C:\Company\skey\core\Cms\Skey.Core.Cms\03 Repository\CoreCms.DbRepository\bin\Debug\netcoreapp3.0\CoreCms.DbRepository.dll
+C:\Company\skey\core\Cms\Skey.Core.Cms\03 Repository\CoreCms.DbRepository\bin\Debug\netcoreapp3.0\CoreCms.DbRepository.pdb
+C:\Company\skey\core\Cms\Skey.Core.Cms\03 Repository\CoreCms.DbRepository\bin\Debug\netcoreapp3.0\CoreCms.Domain.dll
+C:\Company\skey\core\Cms\Skey.Core.Cms\03 Repository\CoreCms.DbRepository\bin\Debug\netcoreapp3.0\Skey.Core.Framework.Repository.dll
+C:\Company\skey\core\Cms\Skey.Core.Cms\03 Repository\CoreCms.DbRepository\bin\Debug\netcoreapp3.0\CoreCms.Domain.pdb
+C:\Company\skey\core\Cms\Skey.Core.Cms\03 Repository\CoreCms.DbRepository\bin\Debug\netcoreapp3.0\Skey.Core.Framework.Repository.pdb
+C:\Company\skey\core\Cms\Skey.Core.Cms\03 Repository\CoreCms.DbRepository\obj\Debug\netcoreapp3.0\CoreCms.DbRepository.csproj.CopyComplete
+C:\Company\skey\core\Cms\Skey.Core.Cms\03 Repository\CoreCms.DbRepository\obj\Debug\netcoreapp3.0\CoreCms.DbRepository.dll
+C:\Company\skey\core\Cms\Skey.Core.Cms\03 Repository\CoreCms.DbRepository\obj\Debug\netcoreapp3.0\CoreCms.DbRepository.pdb

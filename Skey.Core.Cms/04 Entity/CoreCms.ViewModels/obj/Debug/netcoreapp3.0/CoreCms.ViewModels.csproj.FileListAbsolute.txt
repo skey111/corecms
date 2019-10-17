@@ -1,0 +1,11 @@
+C:\Company\skey\core\Cms\Skey.Core.Cms\04 Entity\CoreCms.ViewModels\bin\Debug\netcoreapp3.0\CoreCms.ViewModels.deps.json
+C:\Company\skey\core\Cms\Skey.Core.Cms\04 Entity\CoreCms.ViewModels\bin\Debug\netcoreapp3.0\CoreCms.ViewModels.dll
+C:\Company\skey\core\Cms\Skey.Core.Cms\04 Entity\CoreCms.ViewModels\bin\Debug\netcoreapp3.0\CoreCms.ViewModels.pdb
+C:\Company\skey\core\Cms\Skey.Core.Cms\04 Entity\CoreCms.ViewModels\bin\Debug\netcoreapp3.0\Skey.Core.Framework.Common.dll
+C:\Company\skey\core\Cms\Skey.Core.Cms\04 Entity\CoreCms.ViewModels\bin\Debug\netcoreapp3.0\Skey.Core.Framework.Common.pdb
+C:\Company\skey\core\Cms\Skey.Core.Cms\04 Entity\CoreCms.ViewModels\obj\Debug\netcoreapp3.0\CoreCms.ViewModels.csprojAssemblyReference.cache
+C:\Company\skey\core\Cms\Skey.Core.Cms\04 Entity\CoreCms.ViewModels\obj\Debug\netcoreapp3.0\CoreCms.ViewModels.AssemblyInfoInputs.cache
+C:\Company\skey\core\Cms\Skey.Core.Cms\04 Entity\CoreCms.ViewModels\obj\Debug\netcoreapp3.0\CoreCms.ViewModels.AssemblyInfo.cs
+C:\Company\skey\core\Cms\Skey.Core.Cms\04 Entity\CoreCms.ViewModels\obj\Debug\netcoreapp3.0\CoreCms.ViewModels.csproj.CopyComplete
+C:\Company\skey\core\Cms\Skey.Core.Cms\04 Entity\CoreCms.ViewModels\obj\Debug\netcoreapp3.0\CoreCms.ViewModels.dll
+C:\Company\skey\core\Cms\Skey.Core.Cms\04 Entity\CoreCms.ViewModels\obj\Debug\netcoreapp3.0\CoreCms.ViewModels.pdb

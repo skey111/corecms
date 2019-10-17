@@ -1,0 +1,127 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "内容编辑";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+@model CoreCms.ViewModels.LearningModels.LearningInfoModel;
+
+<script type="text/javascript" src="~/lib/kindeditor/kindeditor-min.js"></script>
+<script type="text/javascript" src="~/lib/kindeditor/lang/zh_CN.js"></script>
+<script type="text/javascript" charset="utf-8" src="~/lib/kindeditor/plugins/code/prettify.js"></script>
+
+
+<div class="navtopmain">
+    <span class="layui-breadcrumb">
+        <a href="/Admin/Index.aspx">首页</a>
+        <a href="#">商品管理</a>
+        <a>
+            <cite>
+                内容编辑
+            </cite>
+        </a>
+    </span>
+</div>
+
+<form method="post" id="example" name="example" action="/Learning/LearningInfoEdit?post=1&id=@ViewBag.id">
+    <div class="layui-tab-content clildFrame">
+        <div class="layui-tab-item layui-show" style="padding: 10px;">
+            <div>
+                <blockquote class="layui-elem-quote">知识库信息</blockquote>
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">@Html.DisplayNameFor(m => m.ParentId)</label>
+                        <div class="layui-input-block">
+                            <select name="ParentId" id="ParentId" class="layui-select">
+                                <option value="0">顶级分类</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">@Html.DisplayNameFor(m => m.Title)</label>
+                    <div class="layui-input-block">
+                        <textarea class="layui-textarea " asp-for="Title" placeholder="请输入标题"></textarea>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">@Html.DisplayNameFor(m => m.TitleImgs)</label>
+                    <div class="layui-input-block">
+                        <input type="file" id="TitleImg" name="TitleImg" />
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">@Html.DisplayNameFor(m => m.Desc)</label>
+                    <div class="layui-input-block">
+                        <textarea class="layui-textarea " asp-for="Desc" placeholder="请输入描述"></textarea>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">@Html.DisplayNameFor(m => m.Content)</label>
+                    <div class="layui-input-block">
+                        <textarea class="layui-textarea " id="Content" asp-for="Content" placeholder="请输入内容" style="height:360px;"></textarea>
+                    </div>
+                </div>
+                <div class="layui-row">
+                    <div class="layui-col-sm4">&nbsp;</div>
+                    <div class="layui-col-sm4">
+                        <button type="submit" onclick="return oncheckpage();" class="layui-btn"> 立即保存</button>
+                    </div>
+                    <div class="layui-col-sm4">&nbsp;</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(function () {
+
+            LoadTypes();
+
+        });
+
+        function LoadTypes() {
+
+            var url = "/Services/LoadLearningTypes";
+
+            $.getJSON(url, function (data) {
+
+                var html = "";
+                for (var i = 0; i < data.length; i++) {
+                    var obj = data[i];
+                    if (obj.id == '@Model.ParentId') {
+                    html += '<option value="' + obj.id + '" selected="selected">' + obj.name + '</option>';
+                    } else {
+
+                    html += '<option value="' + obj.id + '">' + obj.name + '</option>';
+                    }
+                }
+
+                $("#ParentId").append(html);
+                loadRenderPage();
+            })
+        }
+
+    KindEditor.ready(function (K) {
+        var editor1 = K.create('#Content', {
+            cssPath: '/lib/kindeditor/plugins/code/prettify.css',
+            uploadJson: '/Services/UploadImg',
+            fileManagerJson: '/Services/FileManager',
+            allowFileManager: true,
+            afterCreate: function () {
+                var self = this;
+                K.ctrl(document, 13, function () {
+                    self.sync();
+                    K('form[name=example]')[0].submit();
+                });
+                K.ctrl(self.edit.doc, 13, function () {
+                    self.sync();
+                    K('form[name=example]')[0].submit();
+                });
+            }
+        });
+        prettyPrint();
+    });
+    </script>
+</form>

@@ -1,0 +1,17 @@
+C:\Company\skey\core\Cms\Skey.Core.Cms\02 Application\CoreCms.Application\obj\Debug\netcoreapp3.0\CoreCms.Application.csprojAssemblyReference.cache
+C:\Company\skey\core\Cms\Skey.Core.Cms\02 Application\CoreCms.Application\obj\Debug\netcoreapp3.0\CoreCms.Application.AssemblyInfoInputs.cache
+C:\Company\skey\core\Cms\Skey.Core.Cms\02 Application\CoreCms.Application\obj\Debug\netcoreapp3.0\CoreCms.Application.AssemblyInfo.cs
+C:\Company\skey\core\Cms\Skey.Core.Cms\02 Application\CoreCms.Application\bin\Debug\netcoreapp3.0\CoreCms.Application.deps.json
+C:\Company\skey\core\Cms\Skey.Core.Cms\02 Application\CoreCms.Application\bin\Debug\netcoreapp3.0\CoreCms.Application.dll
+C:\Company\skey\core\Cms\Skey.Core.Cms\02 Application\CoreCms.Application\bin\Debug\netcoreapp3.0\CoreCms.Application.pdb
+C:\Company\skey\core\Cms\Skey.Core.Cms\02 Application\CoreCms.Application\bin\Debug\netcoreapp3.0\CoreCms.Domain.dll
+C:\Company\skey\core\Cms\Skey.Core.Cms\02 Application\CoreCms.Application\bin\Debug\netcoreapp3.0\CoreCms.ViewModels.dll
+C:\Company\skey\core\Cms\Skey.Core.Cms\02 Application\CoreCms.Application\bin\Debug\netcoreapp3.0\Skey.Core.Framework.Common.dll
+C:\Company\skey\core\Cms\Skey.Core.Cms\02 Application\CoreCms.Application\bin\Debug\netcoreapp3.0\Skey.Core.Framework.Repository.dll
+C:\Company\skey\core\Cms\Skey.Core.Cms\02 Application\CoreCms.Application\bin\Debug\netcoreapp3.0\CoreCms.ViewModels.pdb
+C:\Company\skey\core\Cms\Skey.Core.Cms\02 Application\CoreCms.Application\bin\Debug\netcoreapp3.0\CoreCms.Domain.pdb
+C:\Company\skey\core\Cms\Skey.Core.Cms\02 Application\CoreCms.Application\bin\Debug\netcoreapp3.0\Skey.Core.Framework.Common.pdb
+C:\Company\skey\core\Cms\Skey.Core.Cms\02 Application\CoreCms.Application\bin\Debug\netcoreapp3.0\Skey.Core.Framework.Repository.pdb
+C:\Company\skey\core\Cms\Skey.Core.Cms\02 Application\CoreCms.Application\obj\Debug\netcoreapp3.0\CoreCms.Application.csproj.CopyComplete
+C:\Company\skey\core\Cms\Skey.Core.Cms\02 Application\CoreCms.Application\obj\Debug\netcoreapp3.0\CoreCms.Application.dll
+C:\Company\skey\core\Cms\Skey.Core.Cms\02 Application\CoreCms.Application\obj\Debug\netcoreapp3.0\CoreCms.Application.pdb

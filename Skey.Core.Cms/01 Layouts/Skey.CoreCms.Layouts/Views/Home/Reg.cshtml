@@ -1,0 +1,68 @@
+﻿@{
+    Layout = "_LayoutLogin";
+    ViewData["Title"] = "用户注册";
+}
+@using CoreCms.ViewModels.AccountModels;
+@model LoginModel
+
+<script src="/assets/login/js/login.js"></script>
+<form action="/Home/Reg?post=1" method="post">
+    <div class="wrap">
+        <div class="wpn">
+            <div class="form-data pos">
+                <a href=""><img src="/assets/login/img/logo.png" class="head-logo"></a>
+                <div class="change-login">
+                    <p class="account_number on">用户注册</p>
+                </div>
+                <div class="form1">
+                    <p class="p-input pos">
+                        <label for="num">@Html.DisplayNameFor(m => m.UserName)</label>
+                        @*<input type="text" id="num">*@
+                        <input asp-for="UserName" />
+                        <span class="tel-warn num-err hide"><em>账号或密码错误，请重新输入</em><i class="icon-warn"></i></span>
+                    </p>
+                    <p class="p-input pos">
+                        <label for="pass">@Html.DisplayNameFor(m => m.Password)</label>
+                        @*<input type="password" style="display:none" />
+                            <input type="password" id="pass" autocomplete="new-password">*@
+                        <input asp-for="Password" type="password" />
+                        <span class="tel-warn pass-err hide"><em>账号或密码错误，请重新输入</em><i class="icon-warn"></i></span>
+                    </p>
+                    <p class="p-input pos code hide">
+                        <label for="veri">@Html.DisplayNameFor(m => m.Code)</label>
+                        @*<input type="text" id="veri">*@
+                        <input asp-for="Code" />
+                        <img src="">
+                        <span class="tel-warn img-err hide"><em>账号或密码错误，请重新输入</em><i class="icon-warn"></i></span>
+                        <!-- <a href="javascript:;">换一换</a> -->
+                    </p>
+                </div>
+                <div class="r-forget cl">
+                    <a href="Login" class="z">用户登录</a>
+                    <a href="#" class="y">忘记密码</a>
+                </div>
+                <button type="submit" class="lang-btn   log-btn">立即注册</button>
+
+                <div class="third-party">
+                    <a href="#" class="log-qq icon-qq-round"></a>
+                    <a href="#" class="log-qq icon-weixin"></a>
+                    <a href="#" class="log-qq icon-sina1"></a>
+                </div>
+                <p class="right">Powered by © 2018</p>
+            </div>
+        </div>
+    </div>
+</form>
+<script type="text/javascript">
+    $(function () {
+        var res = @Html.Raw(ViewBag.Result);
+        if (res.Success) {
+            document.location.href = "/Home/Index";
+        } else {
+            var msg = res.Msg;
+            if (msg != "") {
+                alert(msg);
+            }
+        }
+    });
+</script>

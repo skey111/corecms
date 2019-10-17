@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewData["Title"] = "分类管理";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+@using CoreCms.Domain.DbModels;
+
+<div class="navtopmain">
+    <span class="layui-breadcrumb">
+        <a href="#">首页</a>
+        <a href="#">系统设置</a>
+        <a>
+            <cite>
+                分类管理
+            </cite>
+        </a>
+    </span>
+</div>
+<form method="post" action="/Learning/LearningTypeList?post=1">
+    <div class="layui-tab-content clildFrame">
+        <div class="layui-tab-item layui-show" style="padding: 10px;">
+            <div>
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <div class="layui-input-inline">
+                            <select name="IsSys" class="layui-select">
+                                <option value="">不限菜单等级</option>
+                              
+                            </select>
+                        </div>
+                        <div class="layui-input-inline">
+                            <select name="GroupId" class="layui-select">
+                                <option value="">不限菜单分组</option>
+                              
+                            </select>
+                        </div>
+
+                        <div class="layui-input-inline">
+                            <input type="text" value="" placeholder="请输入关键字" class="layui-input search_input">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <button type="submit" class="layui-btn">查询</button>
+                        <a class="layui-btn  " href="/Learning/LearningTypeEdit" >添加</a>
+                    </div>
+                </div>
+                <div class="layui-form news_list">
+                    <table class="layui-table">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>上级分类</th>
+                                <th>名称</th>
+                                <th>链接地址</th>
+                                <th>描述</th>
+                                <th>图片地址</th>
+                                <th>创建时间</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                            <tr class="odd gradeX">
+                                <td>@item.Id</td>
+                                <td>@item.ParentName</td>
+                                <td>@item.Name</td>
+                                <td>@item.LinkUrl</td>
+                                <td>@item.Desc</td>
+                                <td>@item.ImgUrl</td>
+                                <td>@item.CreateDate</td>
+                                <td>
+                                    <a class="layui-btn  " href="/Learning/LearningTypeEdit?id=@item.Id">编辑</a>
+                                </td>
+                            </tr>
+                            }
+                        </tbody>
+                    </table>
+                    <div>
+                        <div id="pageDiv"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <input type="hidden" id="pindex" name="pindex" value="@ViewBag.pindex" />
+</form>

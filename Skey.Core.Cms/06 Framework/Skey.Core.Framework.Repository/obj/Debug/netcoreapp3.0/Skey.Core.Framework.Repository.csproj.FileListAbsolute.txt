@@ -1,0 +1,7 @@
+C:\Company\skey\core\Cms\Skey.Core.Cms\06 Framework\Skey.Core.Framework.Repository\bin\Debug\netcoreapp3.0\Skey.Core.Framework.Repository.deps.json
+C:\Company\skey\core\Cms\Skey.Core.Cms\06 Framework\Skey.Core.Framework.Repository\bin\Debug\netcoreapp3.0\Skey.Core.Framework.Repository.dll
+C:\Company\skey\core\Cms\Skey.Core.Cms\06 Framework\Skey.Core.Framework.Repository\bin\Debug\netcoreapp3.0\Skey.Core.Framework.Repository.pdb
+C:\Company\skey\core\Cms\Skey.Core.Cms\06 Framework\Skey.Core.Framework.Repository\obj\Debug\netcoreapp3.0\Skey.Core.Framework.Repository.AssemblyInfoInputs.cache
+C:\Company\skey\core\Cms\Skey.Core.Cms\06 Framework\Skey.Core.Framework.Repository\obj\Debug\netcoreapp3.0\Skey.Core.Framework.Repository.AssemblyInfo.cs
+C:\Company\skey\core\Cms\Skey.Core.Cms\06 Framework\Skey.Core.Framework.Repository\obj\Debug\netcoreapp3.0\Skey.Core.Framework.Repository.dll
+C:\Company\skey\core\Cms\Skey.Core.Cms\06 Framework\Skey.Core.Framework.Repository\obj\Debug\netcoreapp3.0\Skey.Core.Framework.Repository.pdb

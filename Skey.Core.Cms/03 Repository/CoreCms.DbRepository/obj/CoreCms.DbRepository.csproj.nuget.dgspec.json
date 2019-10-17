@@ -1,0 +1,206 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Company\\skey\\core\\Cms\\Skey.Core.Cms\\03 Repository\\CoreCms.DbRepository\\CoreCms.DbRepository.csproj": {}
+  },
+  "projects": {
+    "C:\\Company\\skey\\core\\Cms\\Skey.Core.Cms\\03 Repository\\CoreCms.DbRepository\\CoreCms.DbRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Company\\skey\\core\\Cms\\Skey.Core.Cms\\03 Repository\\CoreCms.DbRepository\\CoreCms.DbRepository.csproj",
+        "projectName": "CoreCms.DbRepository",
+        "projectPath": "C:\\Company\\skey\\core\\Cms\\Skey.Core.Cms\\03 Repository\\CoreCms.DbRepository\\CoreCms.DbRepository.csproj",
+        "packagesPath": "C:\\Users\\skeyy\\.nuget\\packages\\",
+        "outputPath": "C:\\Company\\skey\\core\\Cms\\Skey.Core.Cms\\03 Repository\\CoreCms.DbRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\skeyy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/pomelo/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Company\\skey\\core\\Cms\\Skey.Core.Cms\\05 Infrastructure\\CoreCms.Doamin\\CoreCms.Domain.csproj": {
+                "projectPath": "C:\\Company\\skey\\core\\Cms\\Skey.Core.Cms\\05 Infrastructure\\CoreCms.Doamin\\CoreCms.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Company\\skey\\core\\Cms\\Skey.Core.Cms\\05 Infrastructure\\CoreCms.Doamin\\CoreCms.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Company\\skey\\core\\Cms\\Skey.Core.Cms\\05 Infrastructure\\CoreCms.Doamin\\CoreCms.Domain.csproj",
+        "projectName": "CoreCms.Domain",
+        "projectPath": "C:\\Company\\skey\\core\\Cms\\Skey.Core.Cms\\05 Infrastructure\\CoreCms.Doamin\\CoreCms.Domain.csproj",
+        "packagesPath": "C:\\Users\\skeyy\\.nuget\\packages\\",
+        "outputPath": "C:\\Company\\skey\\core\\Cms\\Skey.Core.Cms\\05 Infrastructure\\CoreCms.Doamin\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\skeyy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/pomelo/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Company\\skey\\core\\Cms\\Skey.Core.Cms\\06 Framework\\Skey.Core.Framework.Repository\\Skey.Core.Framework.Repository.csproj": {
+                "projectPath": "C:\\Company\\skey\\core\\Cms\\Skey.Core.Cms\\06 Framework\\Skey.Core.Framework.Repository\\Skey.Core.Framework.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Company\\skey\\core\\Cms\\Skey.Core.Cms\\06 Framework\\Skey.Core.Framework.Repository\\Skey.Core.Framework.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Company\\skey\\core\\Cms\\Skey.Core.Cms\\06 Framework\\Skey.Core.Framework.Repository\\Skey.Core.Framework.Repository.csproj",
+        "projectName": "Skey.Core.Framework.Repository",
+        "projectPath": "C:\\Company\\skey\\core\\Cms\\Skey.Core.Cms\\06 Framework\\Skey.Core.Framework.Repository\\Skey.Core.Framework.Repository.csproj",
+        "packagesPath": "C:\\Users\\skeyy\\.nuget\\packages\\",
+        "outputPath": "C:\\Company\\skey\\core\\Cms\\Skey.Core.Cms\\06 Framework\\Skey.Core.Framework.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\skeyy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/pomelo/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "Dapper.SimpleCRUD": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.18, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+﻿.cred {
+    color: red;
+}
+
+.navtopmain {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.layui-breadcrumb {
+    width: 80%;
+    float: left;
+}
+.hide{display:none;}

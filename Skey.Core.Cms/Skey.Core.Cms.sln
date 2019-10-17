@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 Framework", "06 Framework", "{7A2797D4-FFF0-4E98-AEF4-5D2A6F0872CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Layouts", "01 Layouts", "{F4E1184F-4B10-4ECC-8BAC-985C51CFCF13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Application", "02 Application", "{9C606C72-7FF3-4115-AD39-E9A5331BFC0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Repository", "03 Repository", "{42A1CB17-91EA-4010-8B12-C6889AB96AF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Entity", "04 Entity", "{EC695BC7-06F2-4DC1-A71B-ED17D729EC7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 Infrastructure", "05 Infrastructure", "{92DE6A66-84ED-4EE5-9D8A-0C67805D6DE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skey.CoreCms.Layouts", "01 Layouts\Skey.CoreCms.Layouts\Skey.CoreCms.Layouts.csproj", "{1832883A-C0F8-4FFE-AF4B-7CA3368500DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skey.Core.Framework.Repository", "06 Framework\Skey.Core.Framework.Repository\Skey.Core.Framework.Repository.csproj", "{A5D9FF1C-41A2-4BB7-903C-AD90D1FDE0B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skey.Core.Framework.Common", "06 Framework\Skey.Core.Framework.Common\Skey.Core.Framework.Common.csproj", "{CE7BB36F-C947-4827-BC20-9A90FD01ACAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreCms.ViewModels", "04 Entity\CoreCms.ViewModels\CoreCms.ViewModels.csproj", "{549DEB8B-2A4D-4FF6-AD41-0F63BB7BB252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreCms.DbRepository", "03 Repository\CoreCms.DbRepository\CoreCms.DbRepository.csproj", "{9AA9569B-C6D2-4310-9193-1ECB9824CABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreCms.Domain", "05 Infrastructure\CoreCms.Doamin\CoreCms.Domain.csproj", "{F5479EAC-4306-4B9F-A19E-EF0C12736D87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreCms.Ioc", "03 Repository\CoreCms.Ioc\CoreCms.Ioc.csproj", "{F8C69AE9-F1E4-4903-9E3D-05715A23FF7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreCms.Application", "02 Application\CoreCms.Application\CoreCms.Application.csproj", "{B96D60FF-DBE6-4D4A-A536-7807E096E36A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1832883A-C0F8-4FFE-AF4B-7CA3368500DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1832883A-C0F8-4FFE-AF4B-7CA3368500DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1832883A-C0F8-4FFE-AF4B-7CA3368500DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1832883A-C0F8-4FFE-AF4B-7CA3368500DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5D9FF1C-41A2-4BB7-903C-AD90D1FDE0B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5D9FF1C-41A2-4BB7-903C-AD90D1FDE0B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5D9FF1C-41A2-4BB7-903C-AD90D1FDE0B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5D9FF1C-41A2-4BB7-903C-AD90D1FDE0B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE7BB36F-C947-4827-BC20-9A90FD01ACAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7BB36F-C947-4827-BC20-9A90FD01ACAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7BB36F-C947-4827-BC20-9A90FD01ACAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7BB36F-C947-4827-BC20-9A90FD01ACAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{549DEB8B-2A4D-4FF6-AD41-0F63BB7BB252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549DEB8B-2A4D-4FF6-AD41-0F63BB7BB252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549DEB8B-2A4D-4FF6-AD41-0F63BB7BB252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549DEB8B-2A4D-4FF6-AD41-0F63BB7BB252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA9569B-C6D2-4310-9193-1ECB9824CABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA9569B-C6D2-4310-9193-1ECB9824CABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA9569B-C6D2-4310-9193-1ECB9824CABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA9569B-C6D2-4310-9193-1ECB9824CABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5479EAC-4306-4B9F-A19E-EF0C12736D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5479EAC-4306-4B9F-A19E-EF0C12736D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5479EAC-4306-4B9F-A19E-EF0C12736D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5479EAC-4306-4B9F-A19E-EF0C12736D87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8C69AE9-F1E4-4903-9E3D-05715A23FF7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C69AE9-F1E4-4903-9E3D-05715A23FF7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C69AE9-F1E4-4903-9E3D-05715A23FF7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C69AE9-F1E4-4903-9E3D-05715A23FF7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B96D60FF-DBE6-4D4A-A536-7807E096E36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B96D60FF-DBE6-4D4A-A536-7807E096E36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B96D60FF-DBE6-4D4A-A536-7807E096E36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B96D60FF-DBE6-4D4A-A536-7807E096E36A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1832883A-C0F8-4FFE-AF4B-7CA3368500DC} = {F4E1184F-4B10-4ECC-8BAC-985C51CFCF13}
+		{A5D9FF1C-41A2-4BB7-903C-AD90D1FDE0B0} = {7A2797D4-FFF0-4E98-AEF4-5D2A6F0872CA}
+		{CE7BB36F-C947-4827-BC20-9A90FD01ACAE} = {7A2797D4-FFF0-4E98-AEF4-5D2A6F0872CA}
+		{549DEB8B-2A4D-4FF6-AD41-0F63BB7BB252} = {EC695BC7-06F2-4DC1-A71B-ED17D729EC7A}
+		{9AA9569B-C6D2-4310-9193-1ECB9824CABB} = {42A1CB17-91EA-4010-8B12-C6889AB96AF9}
+		{F5479EAC-4306-4B9F-A19E-EF0C12736D87} = {92DE6A66-84ED-4EE5-9D8A-0C67805D6DE5}
+		{F8C69AE9-F1E4-4903-9E3D-05715A23FF7B} = {42A1CB17-91EA-4010-8B12-C6889AB96AF9}
+		{B96D60FF-DBE6-4D4A-A536-7807E096E36A} = {9C606C72-7FF3-4115-AD39-E9A5331BFC0A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BCDB664-5D3E-4970-A957-9FA8C0259C29}
+	EndGlobalSection
+EndGlobal
